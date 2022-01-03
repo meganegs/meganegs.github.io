@@ -1,0 +1,91 @@
+/* 
+*{
+    box-sizing: border-box;
+}
+*/
+body
+{
+    width: 100%;
+    /*height: 100%;
+    
+    margin: 50%;
+    border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+nav
+{
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+    background-color: black;
+    /*position: absolute;*/
+
+
+}
+
+header
+{
+    background-image: url('../img/bg_camion.jpg');
+    background-size: 100% 100%;
+    height: auto;
+    width: 65%;
+    padding: 10%;
+
+    margin: 106px;
+
+}
+
+article
+{
+    clear: both;
+}
+
+section
+{
+    float: left;
+    margin-left: 8%;
+}
+.container
+{
+    
+    height: auto;
+    width: 70%;
+    
+}
+
+
+.bandeau{
+    color: white;
+}
+
+
+.title
+{
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centre{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+.position
+{
+    float: left;
+}
+
+.position2
+{
+    padding-left: 313px;
+}
+
+
